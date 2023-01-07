@@ -21,7 +21,7 @@ config = dotenv_values('.env')
 telegram_token = config['TELEGRAM_TOKEN']
 bot = AsyncTeleBot(telegram_token)
 
-MEDIA = ['photo', 'video', 'audio', 'document', 'voice', 'animation']
+MEDIA = ['photo', 'video', 'audio', 'document', 'voice', 'animation', 'sticker']
 TEXT_MEDIA = ['text', 'photo', 'video', 'audio', 'document', 'voice', 'animation']
 
 
